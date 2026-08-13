@@ -44,8 +44,6 @@ const int PIN_RGB_B = 22;
 // 全域變數
 // ======================================================================
 
-const char* username = "wang7380";
-
 volatile int g_hour = 0;
 volatile int g_min  = 0;
 volatile int g_sec  = 0;

@@ -8,8 +8,8 @@
 // Tracks 32 events, with each event being {pressed, key}
 typedef struct {
     uint16_t q[32];
-    uint16_t head;
-    uint16_t tail;
+    volatile uint16_t head;
+    volatile uint16_t tail;
 } KeyEvents;
 
 // Function definitions are in queue.c
